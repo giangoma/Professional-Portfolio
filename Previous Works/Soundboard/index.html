@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bonus Soundboard with TTS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+
+    <header>
+        <h2>ALAN PARTRIDGE SOUNDBOARD</h2>
+        <p>Listen to a range of sounds by <b>Alan Partridge!</b></p>
+    </header>
+
+    <div class="tts">
+      <h1>Or use our text to speech..</h1>
+      <div class="area">
+        <textarea
+          name="textarea"
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="Lorem ipsum sit dolor amet.."
+        ></textarea>
+        <button class="speakBtn btn">Convert to Speech</button>
+      </div>
+    </div>
+
+    <div class="soundboard">
+        <div class="box"><p>Ah Ha</p> <audio class="sound" src="Audio/ah-ha.mp3"></audio></div>
+        <div class="box"><p>Back Of The Net</p> <audio class="sound" src="Audio/back-of-the-net.mp3"></audio></div>
+        <div class="box"><p>Bang Out of Order</p> <audio class="sound" src="Audio/bangoutoforder.mp3"></audio></div>
+        <div class="box"><p>Dan</p> <audio class="sound" src="Audio/dan.mp3"></audio></div>
+        <div class="box"><p>E-Mail of the Evening</p> <audio class="sound" src="Audio/emailoftheevening.mp3"></audio></div>
+        <div class="box"><p>Hello Partridge</p> <audio class="sound" src="Audio/hellopartridge.mp3"></audio></div>
+        <div class="box"><p>I Ate A Scotch Egg</p> <audio class="sound" src="Audio/iateascotchegg.mp3"></audio></div>
+        <div class="box"><p>I'm Confused</p> <audio class="sound" src="Audio/imconfused.mp3"></audio></div>
+    </div>
+
+
+  </body>
+</html>
