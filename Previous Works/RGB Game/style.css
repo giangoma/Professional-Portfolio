@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    background-color: #232323;
+    margin: auto 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.circle {
+    width: 30%; /* Adjust size as needed */
+    height: 0;
+    padding-bottom: 25%; /* This creates a square shape */
+    background-color: purple;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%; /* Make the shapes circles */
+    transition: background 0.6s;
+}
+
+#DISPLAYCOLOR {
+    font-size: 200%;
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #2CC49D; /* Changed background color */
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+}
+
+button {
+    color: steelblue;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+/*Responsive css*/
+@media(max-width: 600px) {
+    .footer>p {
+        margin-left: 40%;
+    }
+}
