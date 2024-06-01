@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /*This part provides a background image in full rather than using background-image, which by default repeats the image*/
+  background: url(ROOM.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  text-rendering: optimizeSpeed;
+  padding: 2em;
+  color: white;
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+  font-size: 4em;
+  padding-bottom: 1px;
+}
+
+.tts {
+  max-width: 34rem;
+  margin: auto;
+  text-align: center;
+  background-color: #373737;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  padding: 2em;
+  margin-right: 1400px;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.area {
+  margin-top: 3em;
+}
+
+.area textarea {
+  display: block;
+  width: 100%;
+  background-color: #f0ffe8;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #252525;
+  padding: 1em;
+  margin-bottom: 1em;
+  resize: vertical;
+  border-radius: 1rem;
+  outline: 0;
+  border: 0;
+}
+
+::placeholder {
+  font-size: 1.4rem;
+  color: #6c6c6c;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  border-radius: 1rem;
+  background-color: #91ED39;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+  border: 0;
+  outline: 0;
+}
+
+.soundboard {
+  display: grid;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px;
+  margin-left: 900px;
+  margin-top: -400px;
+  overflow: hidden;
+}
+
+.box {
+  background-color: #252525;
+  border: 5px solid black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.box:active {
+  background-color: #91ED39;
+}
+
+.box:hover {
+  background-color: #91ED39;
+}
