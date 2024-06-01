@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(GAS.jpg); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* CenterS the container horizontally */
+    text-align: center;
+    width: 90%; 
+    max-width: 800px;
+    background-color: #0e0e0e; /* Changes background color*/
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Text {
+    width: 100%; /* Occupy full width */
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, p, h2 {
+    text-align: center;
+    color: white;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#btn {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
