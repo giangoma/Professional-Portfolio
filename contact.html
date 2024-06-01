@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style5.css"> <!--Link to stylesheet-->
+    <link rel="icon" href="Assets/ICONSITE.PNG"> <!--Web icon for the tab-->
+    <!--Script links, GSAP plugin and JS file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script> 
+    <script src="script5.js" defer></script>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav>
+        <a href="#">Joseph Gianne Goma</a>
+        <div class="cntr-nav">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="recentworks.html">Artefacts</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <i class="ri-menu-fill"></i>
+    </nav>
+
+    <div class="contact-container"> <!--This houses the whole code for the contacts part of the page.-->
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left"> <!--Allows for web3forms connection-->
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="7b905eb5-9baa-436b-bee0-3c697d6b8d0d"> <!--Links web3forms to my email with the access key.-->
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit<img src="Assets/msg.png" alt="Message icon"></button>
+        </form>
+        <div class="contact-right"> <!--Image for aesthetic-->
+            <img src="Assets/3d.png" alt="Hands holding phone">
+        </div>
+    </div>
+
+    <footer> <!--Footer portion of the page with my icons connected to my social links-->
+        <p>This is the end of the page! Visit my social links below.</p>
+        <div class="social-media-links">
+            <a href="https://www.facebook.com/josephgianne.goma" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/gi.yeoonn/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/joseph-gianne-goma" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="mailto:gomajg07@gmail.com" target="_blank">
+                <img src="https://freelogopng.com/images/all_img/1657906383gmail-icon-png.png" alt="GMail" class="social-icon">
+            </a>
+            <a href="https://wa.me/971504985384?text=urlencodedtext" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/2062095_application_chat_communication_logo_whatsapp_icon.svg/2048px-2062095_application_chat_communication_logo_whatsapp_icon.svg.png" alt="WhatsApp" class="social-icon">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

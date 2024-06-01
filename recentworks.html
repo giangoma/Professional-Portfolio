@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent works</title>
+    <link rel="stylesheet" href="style2.css"> <!--Link to stylesheet-->
+    <link rel="icon" href="Assets/ICONSITE.PNG"> <!--Web icon for the tab-->
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+    <nav>
+        <a href="#">Joseph Gianne Goma</a>
+        <div class="cntr-nav">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="recentworks.html">Artefacts</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+        <i class="ri-menu-fill"></i>
+    </nav>
+
+    <section></section>
+
+    <!--Script links, Lenis link to ensure the GSAP works, GSAP Plugin with Scroll Trigger and JS file-->
+    <script src="https://unpkg.com/@studio-freight/lenis@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script2.js"></script>
+
+
+
+    <div class="secondpart"> <!--Initial part of page-->
+        <h2> SCROLL DOWN </h2>
+        <p> Greetings! This page will display the works I have created in relation to my current course of Creative
+            Computing. My personal works, which you can see in the
+            Gallery, mostly focus on authentic, hand-drawn
+            art on paper. However, I also am able to paint occasionally. I make art whenever something invokes a deep
+            sense of urgency within, usually for something or someone special. As for skills related to my course, I am
+            a beginner in Python, HTML, CSS and JS. I also possess skill related to content creation, such as
+            journalism, video and
+            photo editing. You can find my other works <b>below.</b></p>
+
+
+        <div class="video-container"> <!--Video part showing my edits/videography-->
+            <video id="scrollable-video" autoplay loop muted>
+                <source src="Assets/Shortvid.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="thirdpart"> <!--This houses the photo slider that features my web dev works.-->
+        <h2> Featured Works </h2>
+
+        <div class="container">
+            <div class="slider-wrapper">
+                <button id="prev-slide" class="slide-button">
+                    ◀︎
+                </button>
+                <ul class="image-list">
+                    <li class="image-item-wrapper">
+                        <a href="https://drive.google.com/drive/folders/1_hTbVGeGJuVgHCfQYx6njEAAbmtCwwMm?usp=sharing"
+                            target="_blank">
+                            <img class="image-item" src="Assets/EDITS.png" alt="img-1" />
+                        </a>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <a href="Previous Works/Soundboard/index.html" target="_blank">
+                            <img class="image-item" src="Assets/SBOARD.png" alt="img-2" />
+                        </a>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <a href="Previous Works/Recipe/recipe.html" target="_blank">
+                            <img class="image-item" src="Assets/MSAGO.png" alt="img-3" />
+                        </a>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <a href="Previous Works/Video/index.html" target="_blank">
+                            <img class="image-item" src="Assets/SVP.png" alt="img-3" />
+                        </a>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <a href="Previous Works/Study Planner/index.html" target="_blank">
+                            <img class="image-item" src="Assets/STUDYPLAN.png" alt="img-3" />
+                        </a>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <a href="Previous Works/RGB Game/index.html" target="_blank">
+                            <img class="image-item" src="Assets/RGBCOLOR.png" alt="img-3" />
+                        </a>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <a href="Previous Works/Petrol/index.html" target="_blank">
+                            <img class="image-item" src="Assets/PETROL.png" alt="img-3" />
+                        </a>
+                    </li>
+                </ul>
+                <button id="next-slide" class="slide-button">
+                    ▶
+                </button>
+            </div>
+            <div class="slider-scrollbar"> <!--Scroll bar if people don't want to use the side buttons.-->
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
