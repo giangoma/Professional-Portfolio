@@ -1,0 +1,19 @@
+html {
+    /*This part provides a background image in full rather than using background-image, which by default repeats the image*/
+    background: url(BSUIMG.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video { /*Centers the video*/
+    text-align: center;
+    padding-top: 10%
+}
+
+header { /*Provides header with a background*/
+    text-align: center;
+    font-size: 1em;
+    background-color: #3c4a63;
+}
